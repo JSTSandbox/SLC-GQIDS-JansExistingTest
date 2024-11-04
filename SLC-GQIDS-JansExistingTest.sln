@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{4A2FE08E-DAA8-4FDC-9982-D806C8E9BD59}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\.editorconfig = Internal\.editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{C5B56D78-4079-4585-A157-11DA51CB3524}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{5B5F4CDF-F929-43EF-B755-0D7801265D34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{7CF50711-ECB4-49A3-8006-B3F0711FC100}"
+	ProjectSection(SolutionItems) = preProject
+		CompanionFiles\Skyline DataMiner\AboutThisFolder.md = CompanionFiles\Skyline DataMiner\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{178AA30D-26F5-4611-916C-B0D0FF42C8C4}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\ABOUT.md = Documentation\ABOUT.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F8938D60-51A0-4880-9CFC-19C66379BB5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{5DBC84B2-0683-4E38-B477-A73535F4C235}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+		Internal\Code Analysis\stylecop.json = Internal\Code Analysis\stylecop.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JansExistingAdHoc", "JansExistingAdHoc", "{3AC737E3-B833-4BDE-9F6E-6034D9223EBF}"
+	ProjectSection(SolutionItems) = preProject
+		JansExistingAdHoc.xml = JansExistingAdHoc.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{43EDC317-5C8F-449D-ACC7-01E4B3ECAC03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JansExistingAdHoc_1", "JansExistingAdHoc_1\JansExistingAdHoc_1.csproj", "{2B4C22ED-73DD-4A22-9915-56F498DBFAC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B4C22ED-73DD-4A22-9915-56F498DBFAC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B4C22ED-73DD-4A22-9915-56F498DBFAC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B4C22ED-73DD-4A22-9915-56F498DBFAC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B4C22ED-73DD-4A22-9915-56F498DBFAC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7CF50711-ECB4-49A3-8006-B3F0711FC100} = {5B5F4CDF-F929-43EF-B755-0D7801265D34}
+		{5DBC84B2-0683-4E38-B477-A73535F4C235} = {4A2FE08E-DAA8-4FDC-9982-D806C8E9BD59}
+		{3AC737E3-B833-4BDE-9F6E-6034D9223EBF} = {C5B56D78-4079-4585-A157-11DA51CB3524}
+		{43EDC317-5C8F-449D-ACC7-01E4B3ECAC03} = {3AC737E3-B833-4BDE-9F6E-6034D9223EBF}
+		{2B4C22ED-73DD-4A22-9915-56F498DBFAC5} = {43EDC317-5C8F-449D-ACC7-01E4B3ECAC03}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E50F47B5-6276-4112-B186-A489DE25DCFA}
+	EndGlobalSection
+EndGlobal
