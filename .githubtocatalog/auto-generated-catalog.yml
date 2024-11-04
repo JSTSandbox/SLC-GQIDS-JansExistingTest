@@ -3,6 +3,7 @@ id: c21c445e-4276-42fe-ade9-6099ef8ef9eb
 owners: []
 short_description: An existing adhoc datasource
 source_code_url: https://github.com/JSTSandbox/SLC-GQIDS-JansExistingTest
-tags: []
+tags:
+- test
 title: JansExistingTest
 type: adhocdatasource
